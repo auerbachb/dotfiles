@@ -66,3 +66,6 @@ cd () {
     builtin cd "$@"
   fi
 }
+
+# Docker shortcuts
+#alias dock-hip=“docker-compose up hipmunk” #<-doesn’t work
