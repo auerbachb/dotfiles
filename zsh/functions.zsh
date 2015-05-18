@@ -23,8 +23,8 @@ function change-git-email-to() {
 
 function set-git-email() {
   case $PWD/ in
-    (*/8thlight/*) change-git-email-to "zach@8thlight.com";;
-    (*)            change-git-email-to "zmolauson@gmail.com";;
+    (*/hipmunk/*) change-git-email-to “bretton@hipmunk.com";;
+    (*)           change-git-email-to “bretton.auerbach@gmail.com";;
   esac
 }
 
