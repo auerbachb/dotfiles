@@ -21,6 +21,7 @@ function change-git-email-to() {
   git config --global user.email $1
 }
 
+#get details from ZMO on how this works
 function set-git-email() {
   case $PWD/ in
     (*/hipmunk/*) change-git-email-to “bretton@hipmunk.com";;
